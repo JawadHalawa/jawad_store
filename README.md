@@ -18,26 +18,23 @@ This is a modern e-commerce platform built with React, Redux, and React Router. 
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/ecommerce-platform.git
-   cd ecommerce-platform
+   git clone https://github.com/88jawad88/jawad-store.git
+   cd jawad-store
 
-Install dependencies:
+2. Install dependencies and start:
 
-sh
-npm install
-Start the development server:
+   ```sh
+   npm install
+   npm start
 
-sh
-npm start
 
-Admin Credentials
+3. Admin Credentials:
 To access the admin dashboard, use the following credentials:
 
 Email: jawad@admin.com
-
 Password: admin123
 
-Important Notes
+## Important Notes:
 Initial Product Load: Products from products.json are loaded only once and stored in local storage.
 
 User Carts: Each user's cart is stored separately and clears when signs out.
