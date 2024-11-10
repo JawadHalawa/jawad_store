@@ -1,0 +1,30 @@
+.not-found-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f8d7da;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .not-found-title {
+    font-size: 24px;
+    color: #721c24;
+    margin-bottom: 15px;
+  }
+  
+  .not-found-text {
+    color: #721c24;
+  }
+  
+  .not-found-text a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .not-found-text a:hover {
+    text-decoration: underline;
+  }
+  

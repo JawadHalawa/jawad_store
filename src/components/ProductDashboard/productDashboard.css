@@ -1,0 +1,88 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.dashboard-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.input-field:focus {
+  border-color: #888;
+}
+
+.button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #0056b3;
+}
+
+.btn-del{
+  background-color: red;
+}
+.btn-del:hover{
+  background-color: rgb(160, 0, 0);
+}
+.btn-edit{
+  background-color: rgb(0, 204, 0);
+}
+.btn-edit:hover{
+  background-color: green;
+}
+.error-message {
+  color: red;
+  text-align: center;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.product-item button {
+  margin-left: 10px;
+}
+
+.product-image, .image-preview {
+  width: 150px !important; 
+  height: 150px !important;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.image-preview {
+  display: block;
+  margin: 10px 0;
+}
