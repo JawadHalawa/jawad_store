@@ -18,7 +18,7 @@ This is a modern e-commerce platform built with React, Redux, and React Router. 
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/88jawad88/jawad_store.git
+   git clone https://github.com/JawadHalawa/jawad_store.git
    cd jawad_store
 
 2. Install dependencies and start:
